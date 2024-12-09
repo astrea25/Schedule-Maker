@@ -1,0 +1,50 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+/* Add spacing for all main content */
+#app > *:not(header) {
+  margin-top: 2rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--vt-c-green);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+    min-height: 100vh;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    grid-template-columns: none;
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\ASUS\class-schedule-maker\.metadata\.plugins\org.eclipse.jdt.core
+2701475059.index
+266865999.index
+2401511799.index
+2641476600.index
+3307539625.index
+1865797976.index

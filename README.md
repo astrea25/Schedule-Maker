@@ -46,6 +46,11 @@ cd schedule-maker
      spring.jpa.hibernate.ddl-auto=update
   ▶️ Run the Backend Services
   Start each Spring Boot application one by one in Eclipse:
+  ```sh
+  Run ClassScheduleMakerSubject
+  Run ClassScheduleMakerTimeSlot  
+  Run ClassScheduleMakerUser
+  ```
 ### 🌐 4. Frontend (Vue.js) Setup
 📦 Install Dependencies
 Navigate to the Vue project folder and install dependencies:
